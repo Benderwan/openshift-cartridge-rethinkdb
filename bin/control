@@ -17,7 +17,7 @@ function start() {
     client_message 'Starting RethinkDB...'
     nohup rethinkdb --daemon
     i=0
-    while ! is_running && [ $i -lt 300 ]; do
+    while ! is_running && [ $i -lt 120 ]; do
       sleep 1
       i=$(($i + 1))
     done
