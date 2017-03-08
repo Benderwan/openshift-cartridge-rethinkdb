@@ -9,7 +9,7 @@ Display-Name: RethinkDB 2.3.5
 Cartridge-Short-Name: RETHINKDB
 Cartridge-Version: '1.0.0'
 Cartridge-Vendor: karthikax
-Source-Url: https://github.com/karthikax/openshift-cartridge-rethinkdb.git
+Source-Url: https://github.com/benderwan/openshift-cartridge-rethinkdb.git
 Categories:
 - service
 - database
